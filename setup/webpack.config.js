@@ -104,7 +104,7 @@ module.exports.module = {
             test: /\.(png|jpg|gif)$/,
             loader: 'file-loader',
             options: {
-                name: 'img/[name].[ext]?[hash]',
+                name: 'images/[name].[ext]?[hash]',
                 publicPath: Mix.publicPath ? `/${Mix.publicPath}/` : '/'
             }
         },
